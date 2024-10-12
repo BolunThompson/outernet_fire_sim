@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "outernet-fire-sim"
+version = "0.1.0"
+description = ""
+authors = ["Bolun Thompson <abolunthompson@gmail.com>"]
+readme = "README.md"
+packages = [{include = "outernet_fire_sim"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jetforce = "^0.9.1"
+pluralizer = "^1.2.0"
+humanfriendly = "^10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
